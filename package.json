@@ -1,0 +1,23 @@
+{
+  "name": "fake-api",
+  "version": "1.0.0",
+  "description": "A local fake API generator for testing endpoints like /users, /posts, /products, and more.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "fake",
+    "api",
+    "mock",
+    "express",
+    "faker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.0",
+    "express": "^4.18.0"
+  }
+}
